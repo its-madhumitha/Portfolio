@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS-->
+    <link href="./Style.css" rel="stylesheet" />
+
+    <!--Favicon-->
+    <link href="./m.png" rel="icon" />
+
+    <!--Font Style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+    <!--Close & Menu Icon-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <title>MADHUMITHA</title>
+  </head>
+  <body>
+
+    <!--HEADER-->
+
+    <section class="header">
+      <nav>
+        <img src="./graduation (2).png" alt="graduate" />
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#HOME" class="btn">HOME</a></li>
+            <li class="nav-item"><a href="#EDUCATION" class="btn">EDUCATION</a></li>
+            <li class="nav-item"><a href="#SKILLS" class="btn">SKILLS</a></li>
+            <li class="nav-item"><a href="#CONTACT" class="btn">CONTACT</a></li>
+            <!--Resume Part-->
+            <li class="nav-item"><a href="./MadhumithaCV.pdf" download="MadhumithaCV">DOWNLOAD CV</a></li>
+          </ul>
+        </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>MADHUMITHA S</h1>
+        <h2>Learn • Unlearn • Relearn</h2>
+      </div>
+      <div class="social-link">
+        <a href="https://www.linkedin.com/in/madhumitha-sathiyanarayanan"><img src="./bxl-linkedin-square.svg" height="32"/></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://stackoverflow.com/users/18299379/madhumitha"><img src="./bxl-stack-overflow.svg" height="32"/></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/its-madhumitha"><img src="./bxl-github.svg" height="32"/></a>&nbsp;&nbsp;&nbsp;
+      </div>
+    </section>
+    <hr>
+
+    <!--Education-->
+
+    <section class="EDUCATION" id="EDUCATION">
+      <h1>EDUCATION</h1>
+      <div class="row">
+        <div class="edu-col">
+          <h3>Panimalar Engineering College</h3>
+          <p>B.E in Electronics &</p>
+          <p>Commmunication Engineering</p>
+          <p>with 9.55 CGPA (upto 4th Sem)</p>
+        </div>
+        <div class="edu-col">
+          <h3>Alwin Memorial Public School</h3>
+          <p>12th CBSE with 92.4%</p>
+          <p>10th CBSE with 10 CGPA</p>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <hr>
+    
+
+    <!--Skills-->
+
+    <section class="SKILLS" id="SKILLS">
+      <h1>SKILLS</h1>
+      <br>
+       <div class="skills-col">
+        <h2>Programming Languages</h2>
+        <h3>Python</h3>
+        <h3>C & C++</h3>
+        <h3>Java</h3>
+        <h3>HTML</h3>
+        <h3>CSS</h3>
+        <h3>JavaScript</h3>
+        <br>
+       </div>
+       <div class="skills-col"> 
+        <h2>Developer Tools</h2>
+        <h3>Visual Studio Code</h3>
+        <h3>Git & Github</h3>
+        <h3>Windows</h3>
+        <h3>Android Studio</h3>
+        <br>
+       </div>  
+       <div class="skills-col">
+        <h2>Interpersonal Skills</h2>
+        <h3>Problem Solving</h3>
+        <h3>Time Mangement</h3>
+        <h3>Team Building</h3>
+        <h3>Cross-Cultural Communication</h3>
+       </div>
+    </section>
+    <br>
+    <br>
+    <hr>
+    
+
+    <!--Contact-->
+
+    <section class="CONTACT" id="CONTACT">
+      <br>
+      <br>
+      <h1>CONTACT</h1>
+      <br>
+      <h2>Get in touch</h2>
+      <br>
+      <a href="https://www.linkedin.com/in/madhumitha-sathiyanarayanan"><img src="./bxl-linkedin-square.svg" height="32"/></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://stackoverflow.com/users/18299379/madhumitha"><img src="./bxl-stack-overflow.svg" height="32"/></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/its-madhumitha"><img src="./bxl-github.svg" height="32"/></a>&nbsp;&nbsp;&nbsp;
+
+    </section>
+    <br>
+    <br>
+    <hr>
+
+    <!--JavaScript for Toggle Menu-->
+
+    <script>
+        var navlinks= document.getElementById("navLinks")
+        function showMenu(){
+          navlinks.style.left= "0";
+        }
+        function hideMenu(){
+          navlinks.style.left= "-200px";
+        }
+    </script>
+
+     <!--FOOTER-->
+     <section class="footer">
+      <h3>Personal Portfolio</h3>
+       </div>
+       <p class="footer__descriptions">© Copyright MADHUMITHA S</p>
+       </div>
+      </section>
+  </body>
+</html>
