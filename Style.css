@@ -60,7 +60,7 @@ nav img {
 .text-box h1 {
   position: relative;
   left: 27%;
-  font-size: 72px;
+  font-size: 65px;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -100,7 +100,7 @@ nav .fa {
 }
 @media (max-width: 700px) {
   .text-box h1 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
   }
   .text-box h2 {
