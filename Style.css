@@ -272,6 +272,7 @@ h1 {
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: content-box;
+  transition: 0.5s;
 }
 .cert-col {
   flex-basis: 36%;
@@ -280,6 +281,7 @@ h1 {
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: content-box;
+  transition: 0.5s;
 }
 h3 {
   text-align: center;
