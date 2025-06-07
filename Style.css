@@ -152,7 +152,7 @@ h1{
 }
 .about-img {
   flex: 1;
-  text-align: left;
+  text-align: center;
   justify-content: center;
 }
 .about-img img {
@@ -166,7 +166,7 @@ h1{
 }
 .about-desc {
   flex: 2;
-  text-align: right;
+  text-align: center;
   font-size: 18px;
   line-height: 1.6;
   align-items: center;
@@ -176,7 +176,6 @@ about-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex start;
   gap: 40px;
 .row {
   margin-top: 5%;
