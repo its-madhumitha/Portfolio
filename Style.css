@@ -184,6 +184,9 @@ h3 {
   }
   .img {
     text-align: center;
+    width: 180px;
+    margin: 0 auto;
+    display: block;
   } 
 }
 /*-----education-----*/
