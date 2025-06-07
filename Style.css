@@ -65,8 +65,8 @@ nav img {
   white-space: nowrap;
   overflow: hidden;
   width: 10ch;
-  animation: typewriter 2.2s steps(10) 1s 1 normal both,
-    blink 800ms steps(10) step-end infinite;
+  animation: typewriter 2.2s steps(10) infinite alternate,
+    blink 800ms steps(10) infinite normal;
   border-right: 5px solid black;
 }
 @keyframes typewriter {
