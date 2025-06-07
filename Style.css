@@ -150,11 +150,14 @@ h1{
   font-weight: 600;
   color: #950740;
 }
-.img img{
-  width: 250px;
+.about-img img {
+  width: 100%;
+  max-width: 250px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
 }
 .row {
   margin-top: 5%;
@@ -182,12 +185,13 @@ h3 {
   .row {
     flex-direction: column;
   }
-  .img {
+  .about-img {
     text-align: center;
-    width: 180px;
-    margin: 0 auto;
-    display: block;
-  } 
+    margin-bottom: 20px;
+  }
+  .about-img img {
+    max-width: 180px;
+  }
 }
 /*-----education-----*/
 
