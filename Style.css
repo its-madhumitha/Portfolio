@@ -338,6 +338,10 @@ h3 {
     font-size: 25px;
     font-weight: bolder;
   }
+  .SKILLS h3 {
+    font-size: 20px;
+    font-weight: normal;
+  }
   .CONTACT h1 {
     font-size: 25px;
     font-weight: bolder;
