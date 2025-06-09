@@ -150,30 +150,16 @@ h1{
   font-weight: 600;
   color: #950740;
 }
-.about-img {
-  text-align: center;
-}
-.about-img img {
-  width: 100%;
-  text-align: center;
-  max-width: 250px;
+.img img{
+  width: 250px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  display: block;
-  margin: 0;
-}
-.about-desc {
-  text-align: center;
-  font-size: 18px;
-  line-height: 1.6;
-  align-items: center;
 }
 .row {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
-  gap: 40px;
 }
 .exp-col {
   flex-basis: 36%;
@@ -195,17 +181,13 @@ h3 {
 @media (max-width: 700px) {
   .row {
     flex-direction: column;
-    text-align: center;
   }
-  .about-img {
+  .img {
     text-align: center;
     width: 180px;
     margin: 0 auto;
     display: block;
-  }
-  .about-desc{
-    text-align: center;
-  }
+  } 
 }
 /*-----education-----*/
 
@@ -260,11 +242,6 @@ h1 {
   font-weight: 600;
   color: #950740;
 }
-h2 {
-  font-size: 30px;
-  font-weight: 300;
-  color: #4B0082; 
-}
 .skills-col {
   flex-basis: 36%;
   background: #fff3f3;
@@ -272,20 +249,10 @@ h2 {
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: content-box;
-  transition: 0.5s;
-}
-.cert-col {
-  flex-basis: 36%;
-  background: #fff3f3;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: content-box;
-  transition: 0.5s;
 }
 h3 {
   text-align: center;
-  font-weight: normal;
+  font-weight: 600;
   margin: 10px 0;
 }
 .CONTACT {
@@ -323,10 +290,6 @@ h3 {
   .SKILLS h1 {
     font-size: 25px;
     font-weight: bolder;
-  }
-  .SKILLS h3 {
-    font-size: 20px;
-    font-weight: normal;
   }
   .CONTACT h1 {
     font-size: 25px;
