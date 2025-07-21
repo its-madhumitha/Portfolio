@@ -222,7 +222,7 @@ h1 {
   justify-content: space-between;
 }
 .edu-col {
-  flex-basis: 45%;
+  flex-basis: 36%;
   background: #fff3f3;
   border-radius: 10px;
   margin-bottom: 5%;
